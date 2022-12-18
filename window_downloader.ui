@@ -34,7 +34,7 @@
           </object>
         </child>
         <child>
-          <object class="tk.Entry" id="enty_user_url" named="True">
+          <object class="tk.Entry" id="entry_user_url" named="True">
             <property name="font">{Roboto} 12 {}</property>
             <property name="foreground">#415983</property>
             <layout manager="place">
