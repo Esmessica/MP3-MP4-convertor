@@ -22,8 +22,6 @@ class Converthot:
     def on_download_button_click(self):
         user_answer = self.entry_user_url.get()
 
-
-
 if __name__ == "__main__":
     app = Converthot()
     app.run()

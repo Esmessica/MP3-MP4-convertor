@@ -11,21 +11,6 @@ def download(link):
         print("An error has occured in the process")
     print("Download has succeed!")
 
-
-link = input("Put youtube link here -->  ")
-
-
-def download_audio(link):
-
-    youtube_object = YouTube(link)
-    youtube_object = youtube_object.streams.get_audio_only()
-    try:
-        youtube_object.download()
-    except:
-        print("An error has occured in the process")
-    print("Download has succeed!")
-
-
 link = input("Put youtube link here -->  ")
 
 download(link)
