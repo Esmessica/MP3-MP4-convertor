@@ -20,6 +20,6 @@ def download_audio(link):
 on = True
 while on:
 
-    link = input("Put youtube link here -->  \n")
+    link = input("Put youtube link_of_video here -->  \n")
 
     download_audio(link)
