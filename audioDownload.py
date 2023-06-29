@@ -17,7 +17,9 @@ def download_audio(link):
     except:
         print("An error has occured in the process")
 
+on = True
+while on:
 
-link = input("Put youtube link here -->  ")
+    link = input("Put youtube link here -->  \n")
 
-download_audio(link)
+    download_audio(link)
